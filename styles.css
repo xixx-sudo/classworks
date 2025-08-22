@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  color: hsl(0, 0%, 8%);
+  background-color: white;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.logo img {
+  height: 30px;
+  padding-right: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  font-weight: 500;
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.auth-links .login {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  font-weight: 500;
+}
+
+.auth-links .register {
+  text-decoration: none;
+  color: hsl(0, 0%, 8%);
+  border: 1px solid hsl(0, 0%, 41%);
+  padding: 0.4rem 1rem;
+  border-radius: 12px;
+  font-weight: 500;
+}
+.full-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.hero {
+  max-width: 500px;
+  line-height: 30px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: hsl(0, 0%, 41%);
+  margin-bottom: 2rem;
+}
+
+.learn-more {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.clients {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.clients img {
+  height: 30px;
+}
+
+.full-hero img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.clients {
+  justify-content: center;
+}
